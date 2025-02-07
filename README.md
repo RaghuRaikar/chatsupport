@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏆 PlayPicks – AI-Powered Sports Betting Chatbot
 
-## Getting Started
+PlayPicks is an **AI-driven sports betting chatbot** that utilizes **Retrieval-Augmented Generation (RAG)** with **LlamaIndex** and **GPT-4** to provide **real-time odds, AI-powered predictions, and personalized betting insights**. The chatbot integrates **Natural Language Processing (NLP), data management, and live sports data APIs** to enhance the sports betting experience.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **⚡ AI-Powered Predictions** – Uses **GPT-4** to generate betting insights and predict outcomes.
+- **📊 Real-Time Odds** – Fetches the latest betting odds via **Odds API**.
+- **🧠 NLP-Based User Interaction** – Implements **spaCy** for **conversation labeling and intent recognition**.
+- **🔥 Scalable Backend** – Developed with **Flask** and deployed via **AWS Amplify**.
+- **🔒 Secure Data Management** – Uses **Firebase** for storing user data and bet tracking.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📂 Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+| **Category**        | **Technologies** |
+|--------------------|----------------|
+| **Frontend**  | React |
+| **Backend**  | Flask |
+| **NLP**  | spaCy, LlamaIndex |
+| **AI**  | OpenAI GPT-4 |
+| **Database**  | Firebase |
+| **APIs**  | Odds API |
+| **Deployment**  | AWS Amplify |
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+`## 🛠️ Setup & Installation
 
-To learn more about Next.js, take a look at the following resources:
+1\. **Clone the repository:**
+   ```sh
+   git clone https://github.com/RaghuRaikar/PlayPicks.git
+   cd PlayPicks`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    sh
 
-## Deploy on Vercel
+    CopyEdit
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    `npm install  # or yarn install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2.  **Run the application locally:**
+
+    sh
+
+    CopyEdit
+
+    `npm run dev  # or yarn dev`
+
+3.  **Open in browser:**
+
+    arduino
+
+    CopyEdit
+
+    `http://localhost:3000`
+
+🔮 Future Enhancements
+----------------------
+
+-   Implement **user authentication** for personalized betting recommendations.
+-   Integrate **more AI models** to improve sports analysis and predictions.
+-   Add **more betting markets** to expand available options.
+
+🤝 Contributing
+---------------
+
+Contributions are welcome! Feel free to **fork this repository**, submit a **pull request**, or open an **issue** for suggestions.
