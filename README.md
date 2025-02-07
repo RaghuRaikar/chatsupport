@@ -26,31 +26,19 @@ PlayPicks is an **AI-driven sports betting chatbot** that utilizes **Retrieval-A
 `## 🛠️ Setup & Installation
 
 1\. **Clone the repository:**
-   ```sh
+   sh
    git clone https://github.com/RaghuRaikar/PlayPicks.git
    cd PlayPicks`
 
 1.  **Install dependencies:**
 
-    sh
-
-    CopyEdit
-
     `npm install  # or yarn install`
 
 2.  **Run the application locally:**
 
-    sh
-
-    CopyEdit
-
     `npm run dev  # or yarn dev`
 
 3.  **Open in browser:**
-
-    arduino
-
-    CopyEdit
 
     `http://localhost:3000`
 
