@@ -23,12 +23,12 @@ PlayPicks is an **AI-driven sports betting chatbot** that utilizes **Retrieval-A
 | **Deployment**  | AWS Amplify |
 
 
-`## 🛠️ Setup & Installation
+## 🛠️ Setup & Installation
 
 1\. **Clone the repository:**
-   sh
-   git clone https://github.com/RaghuRaikar/PlayPicks.git
-   cd PlayPicks`
+
+   `git clone https://github.com/RaghuRaikar/PlayPicks.git`
+   `cd PlayPicks`
 
 1.  **Install dependencies:**
 
